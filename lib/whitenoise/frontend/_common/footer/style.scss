@@ -1,0 +1,40 @@
+@import '../../var.scss';
+
+.footer
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    border: 1px solid $black;
+
+    padding: 100px 25px 25px 25px;
+}
+
+.footer_title
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+
+    //&:hover
+    //{
+    //    text-decoration: underline;
+    //    text-decoration-color: $black;
+    //}
+}
+
+.footer_copyright
+{
+    height: 100px;
+    padding-top: 1em;
+    color: $lgrey;
+
+    &p:not(:last-child)
+    {
+        padding-bottom: 0.25em;
+    }
+}

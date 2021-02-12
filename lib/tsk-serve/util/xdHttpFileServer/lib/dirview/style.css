@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #ededed;
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+.main
+{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+hr
+{
+    margin: 0 0 15px 0;
+    height: 1px;
+    color: rgba(129,129,129,0.5);
+}
+
+.breadcrumbs
+{
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+.breadcrumbs a, .breadcrumbs span
+{
+    color: rgba(129,129,129,0.5);
+}
+
+.breadcrumbs a:hover, .breadcrumbs .active
+{
+    color: rgb(50, 50, 50);
+}
+
+table
+{
+    /*border: 1px solid #333;*/
+    width: 100%;
+    max-width: 1280px;
+    border-spacing: 0;
+}
+
+tr
+{
+    /*border-top: 1px solid #333;*/
+}
+
+tr:nth-child(even)
+{
+    background-color: #e5e5e5;
+}
+
+tr:hover
+{
+    background-color: #fff;
+}
+
+td
+{
+    text-align: left;
+    padding: 0;
+    white-space:nowrap;
+}
+
+td:first-child
+{
+    width: 100%;
+}
+
+td:nth-child(2n)
+{
+    padding-right: 15px;
+    text-align: right;
+}
+
+td:nth-child(3n)
+{
+    text-align: right;
+}
+
+td a
+{
+    display: block;
+    width: 100%;
+    /*padding-right: 50px;*/
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.gray
+{
+    color: rgba(129,129,129,0.5);
+}

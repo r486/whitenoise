@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #1d1d1d;
+  text-decoration: none; }
+
+.header_logo {
+  display: block;
+  height: 128px;
+  /* defaults before the script sets them */
+  width: 128px;
+  background-image: url("logo.png");
+  background-size: cover; }
+
+.header_text {
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1d1d1d; }

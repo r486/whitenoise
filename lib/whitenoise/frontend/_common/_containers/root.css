@@ -1,0 +1,27 @@
+.root
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+
+    background: rgba(51, 51, 51, 0.03);
+}
+
+@media only screen and (max-width: 1279px) /* mobile */
+{
+    .root
+    {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (min-width: 1280px) /* desktop */
+{
+    .root
+    {
+        width: 640px;
+    }
+}
